@@ -717,6 +717,7 @@ a {
 
 .footer-icon-container:hover {
   background-color: #d57d00;
+  cursor: pointer;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }

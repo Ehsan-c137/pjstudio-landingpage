@@ -467,6 +467,7 @@
 .footer-icon-container {
    &:hover {
       background-color: #d57d00;
+      cursor: pointer;
       .footer-icon {
          color: white;
       }
