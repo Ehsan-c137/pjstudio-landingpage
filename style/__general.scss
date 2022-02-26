@@ -9,8 +9,12 @@ html {
    font-size: 62.5%;
    font-family: "Poppins", sans-serif;
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
+// body {
+//    background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #fff 75%);
+// }
 button {
    cursor: pointer;
 }
