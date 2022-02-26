@@ -32,14 +32,11 @@
    width: 12rem;
    button {
       &:hover {
-         background-color: white;
-         color: $main-color;
-         border: 2px solid $main-color;
+         background-color: #543bad;
+         color: white;
       }
       &:active {
-         background-color: white;
-         color: #13b237;
-         border: 2px solid #13b237;
+         background-color: #3c2a7c;
       }
       width: 100%;
       font-size: 1.25rem;

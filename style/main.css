@@ -81,15 +81,12 @@ a {
 }
 
 .header-request-demo-btn button:hover {
-  background-color: white;
-  color: #7854f7;
-  border: 2px solid #7854f7;
+  background-color: #543bad;
+  color: white;
 }
 
 .header-request-demo-btn button:active {
-  background-color: white;
-  color: #13b237;
-  border: 2px solid #13b237;
+  background-color: #3c2a7c;
 }
 
 #hero {
@@ -164,15 +161,12 @@ a {
 }
 
 .hero-btn button:hover {
-  background-color: white;
-  color: #7854f7;
-  border: 2px solid #7854f7;
+  background-color: #543bad;
+  color: white;
 }
 
 .hero-btn button:active {
-  background-color: white;
-  color: #13b237;
-  border: 2px solid #13b237;
+  background-color: #3c2a7c;
 }
 
 .hero-btn button i {
@@ -654,15 +648,12 @@ a {
 }
 
 .sign-up-btn:hover {
-  background-color: white;
-  color: #7854f7;
-  border: 2px solid #7854f7;
+  background-color: #543bad;
+  color: white;
 }
 
 .sign-up-btn:active {
-  background-color: white;
-  color: #13b237;
-  border: 2px solid #13b237;
+  background-color: #3c2a7c;
 }
 
 .sign-up-img {
@@ -819,15 +810,12 @@ a {
 }
 
 .footer-input-container button:hover {
-  background-color: white;
-  color: #7854f7;
-  border: 2px solid #7854f7;
+  background-color: #543bad;
+  color: white;
 }
 
 .footer-input-container button:active {
-  background-color: white;
-  color: #13b237;
-  border: 2px solid #13b237;
+  background-color: #3c2a7c;
 }
 
 .footer-we-dont-sell {
