@@ -9,7 +9,7 @@
    padding: 2rem 8.6rem;
 }
 .header-pj-logo {
-   width: 12rem;
+   width: 13rem;
    img {
       height: 5rem;
    }
@@ -29,7 +29,7 @@
 }
 .header-request-demo-btn {
    // @include btn;
-   width: 12rem;
+   width: 13rem;
    button {
       &:hover {
          background-color: #543bad;
@@ -132,6 +132,10 @@
 .process-box:not(:first-of-type) {
    &:hover {
       transform: translateY(-2rem);
+      box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
+   }
+   &:active {
+      box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.165);
    }
    transform: translateY(0);
    border-radius: 9px;
@@ -295,16 +299,20 @@
    &:hover {
       transform: translateX(-3rem);
    }
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
    padding: 2rem;
    border-radius: 9px;
-   width: 25rem;
+   width: 28rem;
    box-shadow: 3px 9px 20px 2px rgba(128, 128, 128, 0.145);
    transition: 1s;
    h2 {
       font-size: 2rem;
    }
    p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      width: 28rem;
    }
 }
 
@@ -355,7 +363,7 @@
    color: gray;
 }
 .web-development-right-img-container {
-   height: 30rem;
+   height: 35rem;
    img {
       height: 100%;
    }
@@ -390,7 +398,7 @@
    font-size: 1.6rem;
 }
 .web-dev-feacure-dec-p {
-   font-size: 1.2rem;
+   font-size: 1.4rem;
 }
 
 // ******
@@ -452,6 +460,17 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    padding: 4rem 14rem;
+
+   a:hover {
+      border-bottom: 1px solid gray;
+   }
+   a:active {
+      color: $main-color-dark;
+   }
+   a {
+      border-bottom: 1px solid transparent;
+      transition: 0.5s;
+   }
 }
 .footer-pj-studio {
    display: flex;
@@ -473,11 +492,11 @@
 .footer-icon-container {
    &:hover {
       background-color: #d57d00;
+      transition: 1s;
       cursor: pointer;
       .footer-icon {
          color: white;
       }
-      transition: 0.5s all;
    }
 
    display: flex;
@@ -491,7 +510,7 @@
 }
 .footer-icon {
    font-size: 2.2rem;
-
+   transition: 1s;
    color: #d57d00;
 }
 
