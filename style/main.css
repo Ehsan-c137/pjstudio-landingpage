@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap");
-* {
+*,
+*::after,
+*::before {
   padding: 0rem;
   margin: 0rem;
 }
@@ -635,8 +637,8 @@ a {
   max-width: 140rem;
   height: 25rem;
   border-radius: 9px;
-  -webkit-box-shadow: 0px 40px 30px 12px rgba(0, 0, 0, 0.111);
-          box-shadow: 0px 40px 30px 12px rgba(0, 0, 0, 0.111);
+  -webkit-box-shadow: 0px 40px 30px 12px #f7d6c874;
+          box-shadow: 0px 40px 30px 12px #f7d6c874;
 }
 
 .sign-up-wrapper {

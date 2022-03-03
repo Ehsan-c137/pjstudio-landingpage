@@ -21,5 +21,3 @@ const observerEl = document.querySelectorAll(".observer");
 observerEl.forEach((el) => {
    observer.observe(el);
 });
-
-// observer.observe(document.querySelectorAll(".observer"));
