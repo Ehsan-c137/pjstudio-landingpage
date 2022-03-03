@@ -25,6 +25,16 @@ a {
   text-decoration: none;
 }
 
+.observer {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.observer-active {
+  opacity: 1;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,8 +248,8 @@ a {
 }
 
 .process-box:not(:first-of-type):active {
-  -webkit-box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.165);
-          box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.165);
+  -webkit-box-shadow: 10px 10px 20px 10px rgba(128, 128, 128, 0.19);
+          box-shadow: 10px 10px 20px 10px rgba(128, 128, 128, 0.19);
 }
 
 .process-box:not(:first-of-type) h2 {

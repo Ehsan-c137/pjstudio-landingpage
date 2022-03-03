@@ -30,3 +30,11 @@ a {
 $main-color: #7854f7;
 $main-color-light: #9376f9;
 $main-color-dark: #181131;
+
+.observer {
+   opacity: 0;
+   transition: 1s;
+}
+.observer-active {
+   opacity: 1;
+}
