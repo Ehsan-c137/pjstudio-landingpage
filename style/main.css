@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap");
 * {
   padding: 0rem;
   margin: 0rem;
@@ -6,7 +6,8 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  line-height: 1.3;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
@@ -131,6 +132,7 @@ a {
   line-height: 1.2;
   color: #181131;
   cursor: default;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .hero-text p {
@@ -245,7 +247,7 @@ a {
 }
 
 .process-box:not(:first-of-type) p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: gray;
 }
 
@@ -278,7 +280,7 @@ a {
 }
 
 .process-dec p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: gray;
 }
 
@@ -383,8 +385,8 @@ a {
 }
 
 .mobile-app-feature-dec p {
-  font-size: 1.2rem;
-  width: 60%;
+  font-size: 1.4rem;
+  width: 70%;
   color: gray;
 }
 
@@ -480,7 +482,7 @@ a {
 }
 
 .customize-task p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   width: 28rem;
 }
 
@@ -538,7 +540,7 @@ a {
 }
 
 .web-development-left-header-dec {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: gray;
 }
 
@@ -589,11 +591,11 @@ a {
 
 .web-dev-feacure-dec {
   color: #181131;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .web-dev-feacure-dec-p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 #sign-up-container {
@@ -647,7 +649,7 @@ a {
 }
 
 .sign-up-dec {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #181131;
 }
 
@@ -723,7 +725,7 @@ a {
 
 .footer-pj-sutdio-dec {
   width: 24rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .footer-icons {
@@ -802,7 +804,7 @@ a {
 }
 
 .newsletter-dec {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: gray;
 }
 
@@ -852,6 +854,6 @@ a {
 
 .footer-we-dont-sell {
   color: gray;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=main.css.map */

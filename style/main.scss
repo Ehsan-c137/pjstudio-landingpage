@@ -74,6 +74,7 @@
       line-height: 1.2;
       color: $main-color-dark;
       cursor: default;
+      font-family: "Poppins", sans-serif !important;
    }
    p {
       font-size: 2rem;
@@ -144,7 +145,7 @@
       font-size: 1.8rem;
    }
    p {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       color: gray;
    }
 }
@@ -169,7 +170,7 @@
       line-height: 1;
    }
    p {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       color: gray;
    }
 }
@@ -249,8 +250,8 @@
       font-size: 1.8rem;
    }
    p {
-      font-size: 1.2rem;
-      width: 60%;
+      font-size: 1.4rem;
+      width: 70%;
       color: gray;
    }
    i {
@@ -311,7 +312,7 @@
       font-size: 2rem;
    }
    p {
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       width: 28rem;
    }
 }
@@ -359,7 +360,7 @@
    color: $main-color-dark;
 }
 .web-development-left-header-dec {
-   font-size: 1.4rem;
+   font-size: 1.6rem;
    color: gray;
 }
 .web-development-right-img-container {
@@ -395,10 +396,10 @@
 }
 .web-dev-feacure-dec {
    color: $main-color-dark;
-   font-size: 1.6rem;
+   font-size: 1.8rem;
 }
 .web-dev-feacure-dec-p {
-   font-size: 1.4rem;
+   font-size: 1.6rem;
 }
 
 // ******
@@ -436,7 +437,7 @@
    color: $main-color-dark;
 }
 .sign-up-dec {
-   font-size: 1.6rem;
+   font-size: 1.8rem;
    color: $main-color-dark;
 }
 .sign-up-btn {
@@ -482,7 +483,7 @@
 }
 .footer-pj-sutdio-dec {
    width: 24rem;
-   font-size: 1.2rem;
+   font-size: 1.4rem;
 }
 .footer-icons {
    margin-top: 1rem;
@@ -534,7 +535,7 @@
    gap: 1.2rem;
 }
 .newsletter-dec {
-   font-size: 1.4rem;
+   font-size: 1.6rem;
    color: gray;
 }
 .footer-input-container {
@@ -559,5 +560,5 @@
 }
 .footer-we-dont-sell {
    color: gray;
-   font-size: 1.2rem;
+   font-size: 1.4rem;
 }
