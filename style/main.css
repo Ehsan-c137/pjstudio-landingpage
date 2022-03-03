@@ -237,16 +237,18 @@ a {
 .process-box:not(:first-of-type) {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   border-radius: 9px;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
 .process-box:not(:first-of-type):hover {
-  -webkit-transform: translateY(-2rem);
-          transform: translateY(-2rem);
   -webkit-box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
           box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .process-box:not(:first-of-type):active {
@@ -265,13 +267,6 @@ a {
 
 .process-box-f {
   background-color: #fff4ef;
-  -webkit-box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
-          box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
-}
-
-.process-box-f:hover {
-  -webkit-box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.097);
-          box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.097);
 }
 
 .process-box-db {
@@ -292,8 +287,9 @@ a {
 }
 
 .process-dec p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: gray;
+  margin-left: 5px;
 }
 
 .process-img {

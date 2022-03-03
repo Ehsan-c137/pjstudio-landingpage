@@ -132,13 +132,14 @@
 }
 .process-box:not(:first-of-type) {
    &:hover {
-      transform: translateY(-2rem);
       box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
+      transform: scale(1.2);
    }
    &:active {
       box-shadow: 10px 10px 20px 10px rgba(128, 128, 128, 0.19);
    }
    transform: translateY(0);
+   transform: scale(1);
    border-radius: 9px;
    transition: 1s;
    h2 {
@@ -150,11 +151,11 @@
    }
 }
 .process-box-f {
-   &:hover {
-      box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.097);
-   }
+   // &:hover {
+   //    box-shadow: 20px 15px 20px 10px rgba(128, 128, 128, 0.097);
+   // }
    background-color: #fff4ef;
-   box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
+   // box-shadow: 30px 25px 30px 20px rgba(128, 128, 128, 0.097);
 }
 .process-box-db {
    background-color: #f4f4ff;
@@ -170,8 +171,9 @@
       line-height: 1;
    }
    p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: gray;
+      margin-left: 5px;
    }
 }
 
