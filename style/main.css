@@ -31,10 +31,21 @@ a {
   opacity: 0;
   -webkit-transition: 1s;
   transition: 1s;
+  -webkit-transform: translateY(4rem);
+          transform: translateY(4rem);
 }
 
 .observer-active {
   opacity: 1;
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
+}
+
+.lazy-img {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #header {

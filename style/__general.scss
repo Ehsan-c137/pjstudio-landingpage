@@ -15,9 +15,6 @@ html {
    scroll-behavior: smooth;
 }
 
-// body {
-//    background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #fff 75%);
-// }
 button {
    cursor: pointer;
 }
@@ -36,7 +33,13 @@ $main-color-dark: #181131;
 .observer {
    opacity: 0;
    transition: 1s;
+   transform: translateY(4rem);
 }
 .observer-active {
    opacity: 1;
+   transform: translateY(0rem);
+}
+.lazy-img {
+   filter: blur(20px);
+   transition: 1s;
 }
