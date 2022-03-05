@@ -46,3 +46,14 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach((img) => imgObserver.observe(img));
+
+// validate email
+const emailInput = document.querySelector(".footer-input-container input");
+const emailContainer = document.querySelector(".footer-input-container");
+
+let regex = new RegExp("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$");
+
+emailInput.addEventListener("keypress", function (email) {
+   if (regex.test(emailInput.value))
+      emailContainer.style.border = "2px solid green";
+});
