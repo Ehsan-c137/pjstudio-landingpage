@@ -48,6 +48,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
 imgTargets.forEach((img) => imgObserver.observe(img));
 
 // validate email
+// you most do this in the server not browser :)
 const emailInput = document.querySelector(".footer-input-container input");
 const emailContainer = document.querySelector(".footer-input-container");
 
