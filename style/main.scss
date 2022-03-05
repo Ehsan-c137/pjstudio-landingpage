@@ -497,7 +497,6 @@
 .footer-icon-container {
    &:hover {
       background-color: #d57d00;
-      transition: 1s;
       cursor: pointer;
       .footer-icon {
          color: white;
@@ -512,6 +511,7 @@
    padding: 1rem;
    border-radius: 50%;
    border: 1px solid #d57d00;
+   transition: 1s;
 }
 .footer-icon {
    font-size: 2.2rem;

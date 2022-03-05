@@ -771,12 +771,12 @@ a {
   padding: 1rem;
   border-radius: 50%;
   border: 1px solid #d57d00;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .footer-icon-container:hover {
   background-color: #d57d00;
-  -webkit-transition: 1s;
-  transition: 1s;
   cursor: pointer;
 }
 

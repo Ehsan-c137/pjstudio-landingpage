@@ -1,5 +1,4 @@
 "use strict";
-// TODO change the width of .phone to 80rem when lazyImg loaded
 
 const options = {
    root: null,
@@ -34,7 +33,6 @@ const loadImg = function (entries, observer) {
    // replace src with data-src
    entry.target.src = entry.target.dataset.src;
 
-   console.log(entry.target);
    entry.target.addEventListener("load", function () {
       entry.target.classList.remove("lazy-img");
    });
